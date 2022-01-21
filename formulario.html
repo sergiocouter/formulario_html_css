@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulário de Clientes</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend> <strong> Formulário de Clientes </strong> </legend>
+                <br>
+
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputuser" required>
+                    <label class="efeito" for="nome">Nome completo</label>   
+                </div><br>
+
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputuser" required>
+                    <label class="efeito" for="email">Email</label>
+                </div><br>
+
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputuser" required>
+                    <label class="efeito" for="telefone">Telefone</label>
+                </div><br>
+
+                <p>Sexo</p>
+                    <input type="radio" name="genero" id="feminino" value="feminino">
+                    <label for="feminino">Feminino</label><br>
+
+                    <input type="radio" name="genero" id="masculino" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+
+                    <input type="radio" name="genero" id="outro" value="outro">
+                    <label for="outro">Outro</label><br><br>
+
+                    
+                    <label for="data"><strong>Data de nascimento:</strong></label>  
+                    <input type="date" name="data" id="data" required>   
+                    <br><br>
+
+                    <div class="inputBox">
+                        <input type="text" name="cidade" id="cidade" class="inputuser" required>
+                        <label class="efeito" for="cidade">Cidade</label>
+                    </div><br>
+
+                    <div class="inputBox">
+                        <input type="tel" name="estado" id="estado" class="inputuser" required>
+                        <label class="efeito" for="estado">Estado</label>
+                    </div><br>
+
+                    <div class="inputBox">
+                        <input type="tel" name="endereco" id="endereco" class="inputuser" required>
+                        <label class="efeito" for="endereco">Endereço</label>
+                    </div><br>
+
+                    <input type="submit" name="submit" value="Enviar" id="submit">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
